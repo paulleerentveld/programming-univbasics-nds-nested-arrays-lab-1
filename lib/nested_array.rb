@@ -35,21 +35,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 
   [
-    [
-      "Eggplant",
-      "Grapefruit",
-      "Oranges",
-      "Pineapple",
-      "Watermelon"
-      
-    ],
-    [
-      "Asparagus",
-      "Avocadoes",
-      "Grapes",
-      "Potatoes",
-      "Strawberries"
-    ]
+    CONVENTIONAL_PRODUCE.sort,
+    ORGANIC_PRODUCE.sort
   ]
   
 
